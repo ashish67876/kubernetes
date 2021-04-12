@@ -10,7 +10,7 @@
             instance_tags:
                     Country: IN
                     Env: dev
-                    Auther: hemendra
+                    Auther: Ashish
                     Name: Kube-Master
             count: 1
             vpc_subnet_id: "{{ subnet_id }}"
@@ -29,7 +29,7 @@
           instance_tags:
                   Country: IN
                   Env: dev
-                  Auther: hemendra
+                  Auther: Ashish
                   Name: Kube-Worker
           count: 2
           vpc_subnet_id: "{{ subnet_id }}"
